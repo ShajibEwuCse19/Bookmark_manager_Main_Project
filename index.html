@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookmark Manager</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <a href="/">Home</a>
+        <a href="pages/About.html">About</a>
+        <a href="pages/Service.html">Services</a>
+        <a href="pages/contact.html">Contact</a>
+    </div>
+
+    <h1>Bookmark Manager</h1>
+
+    <div class="container">
+        <form class="form" action="#">
+            <div class="input-field">
+                <label for="site_name">Website Name</label>
+                <input name="site_name" type="text" placeholder="Website name">
+            </div>
+
+            <div class="input-field">
+                <label for="url">URL</label>
+                <input name="url" type="text" placeholder="https://www.selise.com">
+            </div>
+
+            <button class="save_button">Save</button>
+        </form>
+
+        <h2>Saved Bookmarks</h2>
+
+        <div class="bookmarks"></div>
+    </div>
+
+    <div class="footer">
+        <div class="contact-section">
+            <h3>Contact Us</h3>
+            <p>Email: shajib@gmail.com</p>
+            <p>Phone: +88-123-456-7890</p>
+        </div>
+        <p>&copy; 2023 Md. Shajibul Islam All rights reserved.</p>
+    </div>
+    
+
+    <script src="./script.js"></script>
+</body>
+</html>
